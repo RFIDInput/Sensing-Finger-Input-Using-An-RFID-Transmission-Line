@@ -33,4 +33,4 @@ antenna ports and operates in a frequency range of 902.75–927.25
 MHz. The default antennas used by the reader are directional, with
 9 dBi gain and 70 degrees elevation and azimuth beam widths. The
 reader and RFID chips/tags are compatible with EPC Gen2 standard protocol. The multiple reader antennas work in a time-division multiplexing mode. The time slot for each antenna is ∼200 𝜇𝑠.
-All data logging and detection algorithms are implemented in C# and Python code running on a laptop (Intel i5-6200U 2.4GHz CPU, 8GB RAM). The laptop is connected to the RFID reader through an Ethernet cable for communication. Backscatter packets for all tags received by the reader are forwarded to the laptop for processing.
+All data logging and detection algorithms are implemented in C# and Python code running on a laptop (Intel i5-6200U 2.4GHz CPU, 8GB RAM). The laptop is connected to the RFID reader through an Ethernet cable for communication. Backscatter packets for all tags received by the reader are forwarded to the laptop for processing. In order to run code in this repository, please have Python 3.7 and relative packages (NumPy, pandas, Matplotlib) installed.
